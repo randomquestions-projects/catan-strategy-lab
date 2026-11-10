@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-11-09",
+  "generator": "scripts/generate_openings.py",
+  "rng_seed": 20261109,
+  "boards": 250,
+  "board_tile_rows": 4750,
+  "board_edges_per_board": 72,
+  "opening_vertices": 13500,
+  "legal_opening_pairs": 339750,
+  "dice_trials": 20000,
+  "dice_trial_roll_count": 72,
+  "dice_trial_mean_delta": -0.064,
+  "dice_trial_p05_delta": -8.0,
+  "dice_trial_p95_delta": 8.0,
+  "evidence": "synthetic, base-game board geometry plus theoretical 2d6 rolls; not human outcomes or a win model",
+  "limitations": [
+    "Ports and opponent blocking are not included",
+    "Number token positions randomized, not constrained against adjacent 6/8",
+    "Dice experiment assumes static two-settlement opening; no expansion, robber, discard, or city production",
+    "Does not estimate probability of winning"
+  ]
+}

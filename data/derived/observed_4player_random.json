@@ -1,0 +1,29 @@
+{
+  "source_name": "Catan Analyzer public aggregate (parsed Colonist games)",
+  "source_url": "https://github.com/sousa16/catan-analyzer/blob/master/data/stats.json",
+  "source_sha": "ef209a88c23c47a530824aa375ce9a7b2eb07d0c",
+  "original_dataset_description_games": 43947,
+  "parsed_all_modes_games": 43700,
+  "sample": "Four-player games, random dice mode (not balanced dice)",
+  "n_games": 40740,
+  "average_game_turns": 73.55,
+  "median_game_turns": 73,
+  "seat_win_rate_pct": {"1":24.91,"2":24.99,"3":25.23,"4":24.87},
+  "winning_game_category_pct":{"largest_army":37.54,"army_and_road":33.78,"longest_road":11.16,"cities":8.81,"mixed":8.70},
+  "winner_loser_means": {
+     "starting_pips":{"winner":14.36,"other_players":14.39},
+     "starting_resource_diversity":{"winner":3.23,"other_players":3.22},
+     "dice_resource_income":{"winner":61.04,"other_players":49.76},
+     "all_resource_income":{"winner":80.51,"other_players":64.55},
+     "development_cards_bought":{"winner":4.91,"other_players":3.60},
+     "development_cards_used":{"winner":3.51,"other_players":2.38},
+     "cities_built":{"winner":2.14,"other_players":1.29},
+     "bank_trade_resources_received":{"winner":6.45,"other_players":null}
+  },
+  "winner_median_milestone_turn":{"first_development_card_buy":13,"first_city":37,"first_additional_settlement":25,"largest_army":61,"longest_road":61},
+  "winner_city_ever_pct":96.19,
+  "winner_average_purchased_development_cards":4.91,
+  "winner_average_city_count":2.14,
+  "game_length_histogram":[["10–20",2],["20–30",4],["30–40",23],["40–50",704],["50–60",4471],["60–70",10831],["70–80",12326],["80–90",7997],["90–100",3222],["100–110",928],["110–120",199],["120–130",30],["130–140",2],["140–150",1]],
+  "caveat": "Third-party precomputed aggregates, not our independently reprocessed raw-game data. Winner-versus-nonwinner differences are associations, not causal estimates. Numeric field definitions need audit against parser before any predictive training. Categories are source-defined."
+}

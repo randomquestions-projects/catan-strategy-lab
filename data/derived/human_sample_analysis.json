@@ -1,0 +1,54 @@
+{
+  "evidence": "small human-game pilot; descriptive, not causal",
+  "games": 50,
+  "player_rows": 200,
+  "analysis_seed": 20261109,
+  "bootstrap_resamples": 4000,
+  "within_game_comparisons": {
+    "starting_pips": {
+      "mean_within_game_winner_vs_other_delta": 1.007,
+      "bootstrap_ci_95_game_cluster": [
+        0.36,
+        1.653
+      ]
+    },
+    "starting_resource_diversity": {
+      "mean_within_game_winner_vs_other_delta": 0.087,
+      "bootstrap_ci_95_game_cluster": [
+        -0.127,
+        0.293
+      ]
+    },
+    "dice_production_total": {
+      "mean_within_game_winner_vs_other_delta": 13.947,
+      "bootstrap_ci_95_game_cluster": [
+        10.973,
+        16.9
+      ]
+    },
+    "starting_ore_pips": {
+      "mean_within_game_winner_vs_other_delta": 0.407,
+      "bootstrap_ci_95_game_cluster": [
+        -0.373,
+        1.2
+      ]
+    },
+    "starting_wheat_pips": {
+      "mean_within_game_winner_vs_other_delta": -0.06,
+      "bootstrap_ci_95_game_cluster": [
+        -0.887,
+        0.813
+      ]
+    },
+    "starting_sheep_pips": {
+      "mean_within_game_winner_vs_other_delta": 0.593,
+      "bootstrap_ci_95_game_cluster": [
+        -0.413,
+        1.633
+      ]
+    }
+  },
+  "winner_was_tied_for_highest_starting_pips_games": 24,
+  "winner_was_tied_for_highest_starting_pips_pct": 48.0,
+  "warning": "Source opening fields and large aggregated starting-pip definition have not been reconciled. Do not pool. Historical sample may be biased."
+}
