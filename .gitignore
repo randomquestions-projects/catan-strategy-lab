@@ -1,0 +1,12 @@
+# Public website only; private research belongs in analytics-research-private.
+/data/
+/scripts/
+/docs/
+*.parquet
+*.duckdb
+*.sqlite
+*.db
+*.csv
+.env
+.env.*
+__pycache__/
